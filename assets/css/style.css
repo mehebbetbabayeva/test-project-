@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+header{
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid red;
+    width: 100%;
+    padding: 50px;
+}
+header h1{
+    font-size: 30px;
+    color: darkblue;
+}
+header nav ul{
+    display: flex;
+}
+header nav ul li a{
+    color: darkblue;
+    font-size: 20px;
+    letter-spacing: 0.5;
+}
+header nav ul li{
+    display: inline-block;
+    margin-right: 15px;
+}
+/* end header */
